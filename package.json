@@ -1,0 +1,25 @@
+{
+  "name": "kinnie-vsc",
+  "displayName": "kinnie_vsc",
+  "publisher": "autoselff",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "kinnie",
+      "aliases": ["kinnie", "kn"],
+      "extensions": [".kn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "kinnie",
+      "scopeName": "source.kinnie",
+      "path": "./syntaxes/kinnie.tmLanguage.json"
+    }]
+  }
+}
