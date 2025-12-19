@@ -51,7 +51,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.kinnie",
-					"match": "\\b(var|create|if|else|repeat|fun)\\b"
+					"match": "\\b(var|if|else|rep|fun|end)\\b"
 				},
 				{
 					"name": "keyword.other.print.kinnie",
