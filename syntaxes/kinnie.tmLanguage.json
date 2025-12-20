@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "keyword.other.print.kinnie",
-					"match": "\\b(print|printl)\\b"
+					"match": "\\b(out)\\b"
 				}
 			]
 		},
